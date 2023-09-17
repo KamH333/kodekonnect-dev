@@ -1,11 +1,24 @@
-body {
+.home {
     background-color: rgb(18, 3, 30);
     background-repeat: no-repeat;
     background-size: cover;
     transition: background .4s ease-in;
     min-width: 100%;
     max-width: 100%;
-}
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+   
+  @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+       }
+  }
+
 nav {
     text-align: center;
 }
@@ -94,31 +107,31 @@ h1 {
   
   
   .carousel__face:nth-child(1) {
-    background-image: url("https://lh3.googleusercontent.com/pw/AIL4fc-jDLvFnk2_J2J0eoav4Idnkw-gq2yxeNruNguid7lPdOCgQRq41LCSbr91j7L_hgn7mMS-LSBiIdkmvadgGJTkGkl5_oBXmPDX6nD9iQlfbnq9rKYyESOkCAV0f-kMfVPcnqb5Uj4e6YPQgmKqCNuphxWPPXHUW0F9sa-PNiwzPX7EJC8W_AZOrGpz7uoKkdh4FdyfmQYL8uqPLWV77TCV38j4onq6lhhOwKTrx-_y7vYfiXodkBF7DTqxnFXBu4DB-0n59brG6QytnLsEyoDYh_QbvDEdFlYndEMK2uEJsqrihp7MSqY9nJc3OmAjajgD1Aqa58ejdGABPrDSheBLugwJNAdofc4q76X_FhmsdBJCbkClGbxfiO5ezC7t5IH61vnyI7Kdf9-BAgbUc3GKz35eA33PARh7WezwbM_nVKmoh8Wjz2YMrWFJtitgz9Y5-3qiicvQ7djnR20i81H72BkW2vKC1XbFc8lloqiyVye5hoDmag2GvJGanVJbUnKsry9zr43fcpxLFDoJzU3kuLQCcc6VUh6l3mX4zRCB7R7p0GsgMPNpMqFk66cR4SwrsBs8aFsiuD_WQ1dk7EYn_lspoGnK6n0tRHec1Vf6qdb3PgMohG7cES4UuP9h07TwRtrtzXdROO0vcJCj58ZJVBcRiEBmN7uho8w0NmMgtdZCRsWjc9wFd9pfgh780-iIzk77fq-6hzONlZTTmTq0E9_nCV_nMVQu4Jbea7UZ4Q_PaQGYTMKidBm1bRGbrv-TRTfyWk0SqVMLz-Zko6o8_yVCLchwNZ03sn4gWQiFc2z-vW1QDM6M3uX09WnuzqCn3SHAliLLVgH28Avn010d32o5GSaLZX2SCy2x-lFIyhYIGLo3IwSyFGm76RoIEUUHQZzOhK9T4SeAjIu1wTV1rr7Qqh22DxzI-lGRtE_Vu90dFCkQkozZKAMG9PP34fkZkXNr9HXBTJ3N6mU8hbwSPpt30QqH2mQHcZmnkyETmuifBTWnP1NAY-foAiB-wFJFCQ=w1920-h897-s-no?authuser=0");
+    background-image: url("https://lh3.googleusercontent.com/pw/AIL4fc9O37lUi88BzjRWhiwJjlIWG1YvvZONB3VACYKHp7aUcvOpMfgNsKIJyxhvPlmpwBFCuwzU6LFDrzEVJb2K1EoNFmmRGKvHrcvV42U8y9Yb5nVJLeu0Kb-OiqWx7NTwuVKl4Ajea0szxcFtE-RmWrQDPNYyvFtGd231Zuvl_R5plC3Nn9KFQphNMlQuS8eGQEUxvuvXy4f9M2w7uVg8REha0D1T4-SqXgwqrJZCJqH9HA_8Aqmb6ue0PvCI0ouwOhYuaoyRxdWRGkd6NdyjquoeE1AuXTo4U7OueN7NbJAffLKO9yHL2278rQfD4ElZDd1Ox92g7ygXjJ-cqSTHeP8OOv2gA8sdaN1HCGTWjqUS_K-YaPledeV--Prbk_sBB1plAYzWB-n3FDhmfWdjg4N7bZMpsr_1-ET16iAicGAYxLrGwOr1wqiJ1sOolz4UME0ZzpybMJZB7muFsQ0G50GqPBgWytt2I2OhAfX10oj0sZYB3Sqkhjez3exgPu5u-wOAuTlC9ejS793J4z1rGMfF4LbVQ5yWdj-0vgeTPN0WDyl3uDpXexzl7Yym1VYs4APDQedsvlFPmuxYVZ9RNWKhh6s0A12PxEFkpAp5RIua5c7qIqMyTepbP2DLaeMMo_di42_9MMxR7anHLAmT3DqYNFTrkDdsYF57n87o_T7mOA9bWUJVBj_IYNvuMHU3sigpFAAEFhYtOicPRPeMVWjz371bqGQp3azDXtWCzt1cFcfMObzp0oCcp0N-gID93bVlyvz_vMH7sh63qz4J411qEXl9SqVSlXSHhpbc4a04OwUz9b9e9s_PXMtHOEWJhV7uRHL8a6O9TY59TF3-RNt5D3VlrGTcDm-GjoQUeLAKYy2dyoNRhvrvP_VrbQhFAut-kXVpXHgauRwtyXCc3oAzZqO169Zru7G0Xr6oYNLJGyPTNaiTLd7lbhweyWIj8w3UijKovFLG5IqVGwpE4rydgOyuNCY=w1055-h493-s-no?authuser=1");
     transform: rotateY(  0deg) translateZ(430px); }
   .carousel__face:nth-child(2) { 
-    background-image: url("https://images.pexels.com/photos/1258865/pexels-photo-1258865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("");
       transform: rotateY( 40deg) translateZ(430px); }
   .carousel__face:nth-child(3) {
-    background-image: url("https://images.pexels.com/photos/808466/pexels-photo-808466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("");
     transform: rotateY( 80deg) translateZ(430px); }
   .carousel__face:nth-child(4) {
-    background-image: url("https://images.pexels.com/photos/1394841/pexels-photo-1394841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("");
     transform: rotateY(120deg) translateZ(430px); }
   .carousel__face:nth-child(5) { 
-    background-image: url("https://images.pexels.com/photos/969679/pexels-photo-969679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("");
    transform: rotateY(160deg) translateZ(430px); }
   .carousel__face:nth-child(6) { 
-    background-image: url("https://images.pexels.com/photos/1834400/pexels-photo-1834400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("");
    transform: rotateY(200deg) translateZ(430px); }
   .carousel__face:nth-child(7) { 
-    background-image: url("https://images.pexels.com/photos/1415268/pexels-photo-1415268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("");
    transform: rotateY(240deg) translateZ(430px); }
   .carousel__face:nth-child(8) {
-    background-image: url("https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("");
     transform: rotateY(280deg) translateZ(430px); }
   .carousel__face:nth-child(9) {
-    background-image: url("https://images.pexels.com/photos/1175135/pexels-photo-1175135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("");
     transform: rotateY(320deg) translateZ(430px); }
   
   
@@ -136,3 +149,64 @@ h1 {
     text-align: center;
     margin-top: 500px;
   }
+  .about {
+    background-color: black;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+  .ceo {
+    text-align: left;
+    margin-top: 100px;
+  }
+  .banner {
+    width: 100%;
+    height: 50%;
+  }
+  .biography-heading {
+    color: white;
+  }
+  .biography {
+    color: white;
+  }
+.aboutPortfolio {
+    color: white;
+}
+.portfolio {
+    background-color: black;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.portfolioDescriptions {
+    color: white;
+    margin-top: 500px;
+}
+.sites {
+    width: 350px;
+    height: 200px;
+}
+.apps {
+    color: white;
+}
+h2 {
+  color: white;
+}
