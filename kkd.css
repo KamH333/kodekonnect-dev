@@ -1,0 +1,212 @@
+﻿.home {
+    background-color: rgb(18, 3, 30);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background .4s ease-in;
+    min-width: 100%;
+    max-width: 100%;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+   
+  @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+       }
+  }
+
+nav {
+    text-align: center;
+}
+nav a {
+    margin-right: 50px;
+    color: white;
+}
+.logo {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+.buttons {
+  text-align: center;
+}
+.btn {  
+    font-family: Arial, Helvetica, sans-serif;  
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-right: 20px;
+}  
+.btn:hover .btn-slide-show-text1 {  
+    margin-left: 65px;
+}  
+.btn-moving-gradient {  
+    height: 55px;  
+    width: 200px;  
+    font-size: 16px;  
+    font-weight: 600;  
+    color: rgb(255, 255, 255);  
+    cursor: pointer;  
+    border: none;  
+    background-size: 300% 100%;  
+    border-radius: 50px;
+}  
+.btn-moving-gradient:hover {  
+    transition: all 0.5s ease-in-out 0s;  
+    background-position: 100% 0px;
+}  .btn-moving-gradient--green {  
+    background-image: linear-gradient(90deg, rgb(130, 237, 155), rgb(130, 230, 237), rgb(130, 237, 191), rgb(128, 237, 153));  
+    box-shadow: rgb(130, 230, 237) 0px 4px 15px 0px;
+}  
+.kodekonnectNews {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+  .container {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+  }
+  .container a{
+    color: white;
+  }
+  
+  .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+  .carousel__face { 
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+  }
+  
+  span {
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  
+  .carousel__face:nth-child(1) {
+    background-image: url("https://lh3.googleusercontent.com/pw/AIL4fc9O37lUi88BzjRWhiwJjlIWG1YvvZONB3VACYKHp7aUcvOpMfgNsKIJyxhvPlmpwBFCuwzU6LFDrzEVJb2K1EoNFmmRGKvHrcvV42U8y9Yb5nVJLeu0Kb-OiqWx7NTwuVKl4Ajea0szxcFtE-RmWrQDPNYyvFtGd231Zuvl_R5plC3Nn9KFQphNMlQuS8eGQEUxvuvXy4f9M2w7uVg8REha0D1T4-SqXgwqrJZCJqH9HA_8Aqmb6ue0PvCI0ouwOhYuaoyRxdWRGkd6NdyjquoeE1AuXTo4U7OueN7NbJAffLKO9yHL2278rQfD4ElZDd1Ox92g7ygXjJ-cqSTHeP8OOv2gA8sdaN1HCGTWjqUS_K-YaPledeV--Prbk_sBB1plAYzWB-n3FDhmfWdjg4N7bZMpsr_1-ET16iAicGAYxLrGwOr1wqiJ1sOolz4UME0ZzpybMJZB7muFsQ0G50GqPBgWytt2I2OhAfX10oj0sZYB3Sqkhjez3exgPu5u-wOAuTlC9ejS793J4z1rGMfF4LbVQ5yWdj-0vgeTPN0WDyl3uDpXexzl7Yym1VYs4APDQedsvlFPmuxYVZ9RNWKhh6s0A12PxEFkpAp5RIua5c7qIqMyTepbP2DLaeMMo_di42_9MMxR7anHLAmT3DqYNFTrkDdsYF57n87o_T7mOA9bWUJVBj_IYNvuMHU3sigpFAAEFhYtOicPRPeMVWjz371bqGQp3azDXtWCzt1cFcfMObzp0oCcp0N-gID93bVlyvz_vMH7sh63qz4J411qEXl9SqVSlXSHhpbc4a04OwUz9b9e9s_PXMtHOEWJhV7uRHL8a6O9TY59TF3-RNt5D3VlrGTcDm-GjoQUeLAKYy2dyoNRhvrvP_VrbQhFAut-kXVpXHgauRwtyXCc3oAzZqO169Zru7G0Xr6oYNLJGyPTNaiTLd7lbhweyWIj8w3UijKovFLG5IqVGwpE4rydgOyuNCY=w1055-h493-s-no?authuser=1");
+    transform: rotateY(  0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("https://lh3.googleusercontent.com/pw/AIL4fc_QPkW26SxCpcf8L4xFK3rc9UULqEKW1CiwcOfani5dEaTcGpaZty09jDki6Ph9vXhHqbs5JTUO0mgASwH4nLH4f3Nm8xpZugkYm7tVpqyVrK25ZpI7dgn2ve4-GyEzmRtOQLiKSIc5KkixfjWMinLXATdQB0G4FR9jubUOXmaofKNLyROjiRDFi2ydF_6gQJYzxJ-NQOwF0Xv0Z1x_jx7Xxrzv33CMUg6su9d5c6DTcuXIVSNpp_XDzzNFII9U-cFrXKZmnAL6fRMLdITS_OHNhqXgKB3mvDqHBvBWs1eI5vK-rY8aLJ2dpZ1Diw4j25i4ktLVG9uyegeYhOvv7bMRIBxqV_DhGWEZ0jMBwFqFapeIzgNFbTAFSmMPghlpyOQqhQQw9ypVdHE4PFiBLMF4_6uvQZzW2OExzmgjjaj62sCje7IBaMNKeLH6zeSGFSxN-5zs_XHFS320Zrk7uH4TToYJ1Msdvb_1F8X6j8OQsYJrV_h9jBBLVulix_k1IQWOH6C7BzOG6Of29RtQsKG7Np9J8le4PzrHX5degXh6N-YyVeC38xFT376caFijQfDPtnbTbvuKgI8goikUM7Ps0nJgZYuWF5v15tTEPfEfLVRhy5W5dI4PRPpgyNtg5VqaFkVdcvsmrY_y2UU2W4pet5l00rtNpZQZeQ64kOyomZ3G57ZWDXWrqO-eiKJnQNhQ4k4IbOZa7BmjYuV0xjOrpB_bhSzwYgcxb_ecvFVnLzGYMUgxSm-YYERu3s1J9yAyLI4XbgzgcriEzNrlcfa7zT_vL5BH-me-4gajLXLxxAjket1eFbI0sPJ9mxYyPnXmzmrvlaFkVaDWB7oK8PH5MxRqobQPu9bg6ilKSeqUw7I_IuFUZeLuKkV_IcBxf3WWtEDEqSbQWHGg4XZEcZlND1nsQWG2_qr5JN0cKHEWTd0mbP0teZThE3pPxYiJaGYxrdKMHvDCFuVkn9vTvoL2w-QWMRM=w471-h934-s-no?authuser=1");
+      transform: rotateY( 40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("");
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url("");
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("");
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("");
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("");
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("");
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("");
+    transform: rotateY(320deg) translateZ(430px); }
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+  .techNews {
+    color: white;
+    text-align: center;
+    margin-top: 500px;
+  }
+  .about {
+    background-color: black;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+  .ceo {
+    text-align: left;
+    margin-top: 100px;
+  }
+  .banner {
+    width: 100%;
+    height: 50%;
+  }
+  .biography-heading {
+    color: white;
+  }
+  .biography {
+    color: white;
+  }
+.aboutPortfolio {
+    color: white;
+}
+.portfolio {
+    background-color: black;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.portfolioDescriptions {
+    color: white;
+    margin-top: 500px;
+}
+.sites {
+    width: 350px;
+    height: 200px;
+}
+.apps {
+    color: white;
+}
+h2 {
+  color: white;
+}
