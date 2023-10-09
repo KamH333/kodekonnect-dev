@@ -3,8 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     transition: background .4s ease-in;
-    width: 100%;
-    height: auto;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
