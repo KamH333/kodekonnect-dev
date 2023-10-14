@@ -117,7 +117,7 @@ h1 {
     background-image: url("aiGen.png");
     transform: rotateY(120deg) translateZ(430px); }
   .carousel__face:nth-child(5) { 
-    background-image: url("tictactoe.png");
+    background-image: url("tictactoeicon.png");
    transform: rotateY(160deg) translateZ(430px); }
   .carousel__face:nth-child(6) { 
     background-image: url("");
